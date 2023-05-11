@@ -9,11 +9,6 @@ const createWindow = () => {
     width: 1366,
     height: 768,
     autoHideMenuBar: true,
-    webPreferences: {
-        nodeIntegration: true,
-        contextIsolation: false,
-        enableRemoteModule: true,
-    },
     icon: __dirname + '/icon.png',
   });
   win.loadURL(url);
