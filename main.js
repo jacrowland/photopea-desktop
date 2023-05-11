@@ -1,5 +1,7 @@
 const { app, BrowserWindow } = require("electron");
 
+const url = 'https://www.photopea.com/'
+
 const createWindow = () => {
   const win = new BrowserWindow({
     minWidth: 1366,
@@ -14,14 +16,15 @@ const createWindow = () => {
     },
     icon: __dirname + '/icon.png',
   });
-
-  win.loadURL('https://www.photopea.com/', {
-    title: 'Photopea'
-  })
+  win.loadURL(url);
 };
 
 app.whenReady().then(() => {
   createWindow();
+
+  app.on('activate', () => {
+    if (BrowserWindow.getAllWindows().length === 0) createWindow()
+  })
 });
 
 app.on('window-all-closed', () => {
