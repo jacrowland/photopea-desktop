@@ -1,0 +1,23 @@
+{
+  "name": "photopea-desktop",
+  "version": "0.0.0",
+  "main": "main.js",
+  "description": "",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacrowland/photopea-desktop.git"
+  },
+  "author": "Jacob Rowland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacrowland/photopea-desktop/issues"
+  },
+  "homepage": "https://github.com/jacrowland/photopea-desktop#readme",
+  "devDependencies": {
+    "electron": "^24.3.0"
+  }
+}
