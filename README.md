@@ -4,7 +4,7 @@ This is an Electron wrapper application that encapsulates the Photopea online ph
 
 ## Getting Started
 
-To get started, simply download and install the application on your desktop. The application is available for Windows, MacOS, and Linux platforms.
+To get started, simply download and install the application on your windows desktop.
 
 ## Usage
 
